@@ -18,21 +18,37 @@
     switch (operador) {
       case "+":
         result = num1 + num2;
+        console.log(
+          `El resultado de la suma de ${num1} ${operador} ${num2} es ${result}`
+        );
         break;
       case "-":
         result = num1 - num2;
+        console.log(
+          `El resultado de la resta de ${num1} ${operador} ${num2} es ${result}`
+        );
         break;
       case "*":
         result = num1 * num2;
+        console.log(
+          `El resultado de la multiplicacion de ${num1} ${operador} ${num2} es ${result}`
+        );
         break;
       case "/":
         result = num1 / num2;
+        console.log(
+          `El resultado de la division de ${num1} ${operador} ${num2} es ${result}`
+        );
         break;
       case "%":
         result = num1 % num2;
+        console.log(
+          `El resultado del resto de ${num1} ${operador} ${num2} es ${result}`
+        );
         break;
       default:
-        result = "Operador incorrecto";
+        result = "Operador incorrecto!";
+        console.log(result);
         break;
     }
     return result;
@@ -335,13 +351,13 @@ console.log(vuelto(150, 100));
 console.log(" ------------------------------------------ ");
 console.log("|-----------EJERCICIOS CON CICLO-----------|");
 console.log(" ------------------------------------------ ");
-console.log("El resultado de la operacion es: ", calc(10, 2, "+"));
-console.log("El resultado de la operacion es: ", calc(10, 2, "-"));
-console.log("El resultado de la operacion es: ", calc(10, 2, "*"));
-console.log("El resultado de la operacion es: ", calc(10, 2, "/"));
-console.log("El resultado de la operacion es: ", calc(10, 2, "%"));
-console.log("El resultado de la operacion es: ", calc(10, 2));
-nameFor5();
+calc(10, 2, "+");
+calc(10, 2, "-");
+calc(10, 2, "*");
+calc(10, 2, "/");
+calc(10, 2, "%");
+calc(10, 2);
+nameFor5(5);
 console.log("Los multiplos de 3: " + multiplos3());
 console.log("Los multiplos de 3 al reves: " + multiplos3AlReves());
 console.log(
