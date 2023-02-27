@@ -341,7 +341,7 @@ console.log("El resultado de la operacion es: ", calc(10, 2, "*"));
 console.log("El resultado de la operacion es: ", calc(10, 2, "/"));
 console.log("El resultado de la operacion es: ", calc(10, 2, "%"));
 console.log("El resultado de la operacion es: ", calc(10, 2));
-nameFor5(5);
+nameFor5();
 console.log("Los multiplos de 3: " + multiplos3());
 console.log("Los multiplos de 3 al reves: " + multiplos3AlReves());
 console.log(
